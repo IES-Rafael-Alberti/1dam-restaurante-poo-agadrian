@@ -98,9 +98,12 @@ fun main() {
 
      */
 
-    val lista = mutableListOf("g", " ", "df")
+    val lista = mutableListOf("g", "bn ", "df")
     val plato1 = Plato("ghj", 34.34, 10, lista)
     println(plato1.toString())
-    plato1.nombre = " "
+    //plato1.nombre = " "
     println(plato1.toString())
+
+    val pedido = Pedido()
+    pedido.
 }
