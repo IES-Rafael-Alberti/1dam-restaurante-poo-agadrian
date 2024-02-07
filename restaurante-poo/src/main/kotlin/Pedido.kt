@@ -5,7 +5,7 @@ class Pedido (private val numero: Int = contPedidos++){
 
     val platos: MutableList<Plato> = mutableListOf()
 
-    val estado: String = Estado.pendiente.toString()
+    val estado: EstadoPedido = EstadoPedido.Pendiente
 
 
     /**

@@ -105,5 +105,5 @@ fun main() {
     println(plato1.toString())
 
     val pedido = Pedido()
-    pedido.
+
 }
